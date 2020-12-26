@@ -1,0 +1,164 @@
+/*font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+/*Header Start*/
+.c_f{
+    padding: 0 0;
+}
+.cuustom_nav_item{
+    margin: 0 70px;
+    padding-top: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+.cuustom_nav_item:last-child{
+    margin-right: 0px !important;
+}
+/*Header End*/
+
+/*Banner Start*/
+
+.banner_img{
+    width: 100%;
+}
+
+/*Banner End*/
+
+/*Banner Text Start*/
+.banner_text{
+    margin: 100px 120px 80px 120px ;
+}
+.banner_text h3 {
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.banner_text h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+.banner_text h2 {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+
+/*Banner Text End*/
+
+/*Blog Start*/
+.blog_item{
+    margin: 10px 60px 90px 50px;
+
+}
+.blog_item img{
+    margin-bottom: 27px;
+    width: 100%;
+}
+.blog_item h3{
+    margin-bottom: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.blog_item h2{
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+.blog_item h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 25px;
+
+}
+
+/*Blog End*/
+
+/*Form Start*/
+.form{
+    margin-bottom: 97px;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+.form h3{
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.form_part{
+    position: relative;
+    padding: 0 20px;
+}
+.custom_form{
+    padding: 8px 3px;
+    background-color: #fff0;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+.custom_form:focus {
+    box-shadow: none;
+}
+.form_btn{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+.form_btn:focus{
+    box-shadow: none;
+}
+/*Form End*/
+
+/*Button Start*/
+.button{
+    margin-top: 70px; 
+    margin-bottom: 120px;
+}
+.btn_custom{
+    padding: 20px 30px;
+    width: 170px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+.btn_custom:hover{
+    color: black;
+    background-color: #f0f0f0;
+}
+
+/*Button End*/
+
+/*Footer Start*/
+.footer{
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+.footer a{
+    text-decoration: none !important;
+    color: black !important;
+}
+/*Footer End*/
+
+
+

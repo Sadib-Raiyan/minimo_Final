@@ -1,0 +1,160 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /*Herder Start*/
+    .cuustom_nav_item{
+        margin: 0 0 !important;
+    }
+    /*Banner Start*/
+    .banner{
+        margin-top: 20px;
+    }
+
+    /*Banner_text*/
+    .banner_text{
+     margin: 30px 0px;
+    }
+    .banner_text h3 {
+        margin-bottom: 10px;
+    }
+    .banner_text h2 {
+    line-height: 20px;
+    word-spacing: 3px;
+    }
+    
+    /*Blog Start*/
+    .blog_item{
+         margin: 20px 10px 20px 10px;
+    }
+    /*form start*/
+    .form {
+        margin-bottom: 60px;
+        margin-top: 60px;
+        padding: 70px 0;
+    }
+    .form h3{
+        margin-bottom: 20px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    /*button start*/
+    .button {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .btn_custom{
+        padding: 10px 20px;
+        width: 140px;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 0px;
+        transition: 0.5s;
+    }
+    
+    /*Footer Start*/
+    .footer a {
+        margin-left: 13px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*Herder Start*/
+    .cuustom_nav_item{
+        margin: 0 0 !important;
+    }        
+    /*Banner_text*/
+    .banner_text{
+        margin: 30px 0px;
+       }
+       .banner_text h3 {
+           margin-bottom: 10px;
+       }
+       .banner_text h2 {
+       line-height: 20px;
+       word-spacing: 3px;
+       }
+    /*Blog Start*/
+    .blog_item{
+        margin: 20px 10px 20px 10px;
+     }
+    /*form start*/
+        .form h3{
+        margin-bottom: 30px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }.form {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+     /*Button start*/
+     .button {
+        margin-top: 45px;
+        margin-bottom: 70px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*Herder Start*/
+    .cuustom_nav_item{
+        margin: 0 0 !important;
+    }       
+    /*Banner_text*/
+    .banner_text{
+        margin: 30px 0px;
+       }
+       .banner_text h3 {
+           margin-bottom: 10px;
+       }
+       .banner_text h2 {
+       line-height: 20px;
+       word-spacing: 3px;
+       }
+    /*Blog Start*/
+    .blog_item{
+    margin: 20px 10px 20px 10px;
+    }
+    /*Form Start*/
+    .form {
+        margin-top: 88px;
+        
+    }
+
+    .form h3{
+        margin-bottom: 30px;
+        font-size: 27px;
+        font-weight: 400;
+        color: #626262;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    /*Button Start*/
+    .button {
+        margin-top: 50px;
+        margin-bottom: 85px;
+    }
+ 
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+        /*Blog Start*/
+        .blog_item{
+            margin: 50px 20px 50px 20px;
+            }
+    /*Form Start*/
+    .form {
+        margin-top: 88px;
+    }
+    .form h3{
+        word-spacing: -3px;
+        letter-spacing: 0px;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
